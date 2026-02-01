@@ -3,19 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Nom du Restaurant</title>
+    <title>Menu - Chez Mamie</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Meow+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 
-        INSTRUCTIONS :
-        1. Remplacez "Nom du Restaurant" par le nom de votre choix
-        2. Créez une structure sémantique (section, article, header, etc.)
-        3. Utilisez des listes (ul/li) pour les items de menu
-        4. Ajoutez des classes cohérentes (BEM recommandé)
+    <header>
+        <h1>Chez Mamie</h1>
+    </header>
+    <main>
+        <section class="section dejeuner">
+            <h3>Déjeuner</h3>
+            <ul>
+                <li>La Cabane à sucre</li>
+                <p class="prix">19,99$</p>
+                <p class="description">2 oeufs, bacon, jambon, fève au lard, croton, patates,fruits saisonniers</p>
 
-        Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
-    -->
-    
+                <li>Le Classique</li>
+                <p class="prix">14,99$</p>
+                <p class="description">2 oeufs, bacon, patates servis avec rôties</p>
+
+                <li>L'Amoureux des fraises</li>
+                <span class="badge" >VÉGÉ</span>
+                <p class="prix">18,99$</p>
+                <p class="description">1 gauffre, fraises, servis avec un coulis de fraises et chocolat.</p>
+
+            </ul>
+        </section>
+        <section class="section diner">
+            <h3>Dîner</h3>
+            <ul>
+                <li>Le Sandwiche 3 viandes</li>
+                <p class="prix">25,99$</p>
+                <p class="description">Sandwiche au poulet toscane, boeuf à l'oignon et porc à l'érable, servis avec frites maisons</p>
+       
+
+                <li>La Casserole ensoleillée</li>
+                <p class="prix">22.99$</p>
+                <p class="description">Casserole de patates rôties avec viande fumée, fromage suisse, poivrons rouges et sauce aux poivres</p>
+                
+
+                <li>Le Roméo</li>
+                <span class="badge">POPULAIRE</span>
+                <p class="prix">19,99$</p>
+                <p class="description">Poutine classique servie avec salade césear </p>
+                
+            </ul>
+        </section>
+        <section class="section boissons">
+            <h3>Boissons</h3>
+            <ul>
+                <li>Le Café irlandais</li>
+                <p class="prix">8,99$</p>
+                <p class="description">Café servie avec crème fouetté et liqueur alcoolisée irlandaise</p>
+                
+
+                <li>Le Smoothie créatif</li>
+                <span class="badge">NOUVEAU</span>
+                <p class="prix">7,99$</p>
+                <p class="description">Smoothie fait maison avec les fruits saisonniers</p>
+
+                <li>Le Mimosa festif</li>
+                <p class="prix">9,99$</p>
+                <p class="description"> Prosecco servis avec le jus de fruit frais de votre choix
+                    <ul id="mimosa">
+                        <li>Fraise</li>
+                        <li>Kiwi</li>
+                        <li>Orange</li>
+                    </ul>
+                </p>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Bienvenue Chez Mamie!</p>
+    </footer>
 </body>
 </html>
+    

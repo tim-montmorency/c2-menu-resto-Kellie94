@@ -1,7 +1,7 @@
 /**
  * MENU DE RESTAURANT
- * Nom de l'étudiant : [Votre nom]
- * Date : [Date]
+ * Nom de l'étudiant : Kellie Gravel
+ * Date : 31/01/2025
 
    Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
  */
@@ -17,13 +17,97 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
+    font-family: "Barlow", "Meow Script", sans-serif ;
     font-size: 1rem;
     line-height: 1.6;
-    color: #333; /* Ajutez avec votre couleur de texte principale */
-    background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+    color: #c6d0e0;
+    background-color: #183B65;
 }
 
-/* ========================================
-   VOTRE CODE CSS ICI
-   ======================================== */
+/* Header */
+
+header {
+    display: block;
+    padding: 1vh;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Meow Script";
+    font-size: 3rem;
+    color: #c6d0e0;
+}
+
+/* Main */
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #183B65;
+    border: 3px solid #c6d0e0;
+    border-width: 5px 5px;
+    border-radius: 10px;
+    background-image: url(./assets/images/background-image.png);
+}
+
+.section {
+    margin: 5vw 5vw;
+    padding: 5vw;
+    background-color: #183B65;
+    border: 3px solid #c6d0e0;
+    border-radius: 10px;
+}
+
+/* Les 3 sections du menu */
+
+h3 {
+    margin-right: 0 auto;
+    font-family: 'Meow Script';
+    font-size: xx-large;
+}
+
+.section li {
+    font-family: "Barlow", sans-serif ;
+    font-weight: bold;
+    list-style: none;
+}
+
+p.description {
+    margin-right: 5vw;
+    margin-left: 1vw;
+}
+
+ .section #mimosa {
+    font-size: smaller;
+    list-style-type: circle;
+}
+
+.prix {
+    font-family: "Meow Script";
+    float: right;
+    font-weight: bold;
+}
+
+.badge {
+    position: relative;
+    padding: 1px;
+    font-family: "Barlow", sans-serif ;
+    font-weight: bold;
+    background-color: #FEDE6F;
+    color: #183B65;
+    border: #00000088;
+    border-radius: 0.5px;
+}
+
+.badge:hover {
+    background-color: #183B65;
+    color: #c6d0e0;
+}
+
+/* footer */
+
+footer {
+    margin-top: 5px 5px;
+    text-align: center;
+    font-size: larger;
+}
